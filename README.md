@@ -17,6 +17,5 @@
 
 * This script uses web scraping and may violate social media platform policies.
 * This script is not secure and is not recommended for use on personal emails.
-* The checking section for Snapchat no longer works because the API used is no longer valid.
 
 While these scripts may be interesting for learning, it is important to be aware of their potential risks and functional limitations before use.
