@@ -55,20 +55,15 @@ class ChecK():
             self.PrintT()
         else:
             self.PrintF()
-        self.snacphat()
+        
 
 
 if __name__ == "__main__":
     print("""
-
             ~Hi Sp is here
             Pub By Collee01
-        
-
         """)
     ChecK()
-
-
 print('')    
-print('Press enter to exit .')
+print('Press enter to exit.')
 input('')
