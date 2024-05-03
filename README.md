@@ -1,5 +1,5 @@
 ![tenor](https://github.com/hy011121/Mail-Checker/assets/75035965/e6697fa1-8bdb-4f05-b8b7-d91d34d3d2c3)
-## Mail Checker Script
+## Mail Checker Info
 
 **This script functions to check whether an email is connected to various social media platforms:**
 
