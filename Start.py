@@ -57,39 +57,6 @@ class ChecK():
             self.PrintF()
         self.snacphat()
 
-    def snacphat(self): 
-        print("==================")
-        print("[+] Snapchat [+]")
-        print("")
-        r = requests.Session()
-        url = "https://accounts.snapchat.com/accounts/merlin/login" # this API doesn't work anymore , but i'll keep it for learning . 
-        r.headers = {
-        'Host': 'accounts.snapchat.com',
-        'Accept': 'application/json, text/plain, */*',
-        'Accept-Encoding': 'gzip, deflate, br',
-        'X-XSRF-TOKEN': 'missing',
-        'Content-Type': 'application/json',
-        'Origin': 'https://accounts.snapchat.com',
-        'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148',
-        'Connection':'keep-alive',
-        'Referer': 'https://accounts.snapchat.com/accounts/merlin/login'
-        }
-        cookies = {
-        'xsrf_token':'missing'
-        }
-        data = {
-        'email':self.email,
-        'app':'BITMOJI_APP'
-        }
-        req = r.post(url, cookies=cookies, json=data)
-        print(req.text) # If the response is blank, it means Unlinked .
-        print('')
-        if req.text.find("hasSnapchat") >= 0 :
-            self.PrintT()
-        else:
-            self.PrintF()
-        
-
 
 if __name__ == "__main__":
     print("""
